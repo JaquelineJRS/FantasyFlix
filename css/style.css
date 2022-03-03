@@ -45,11 +45,11 @@ header a:hover {
 
 .main-movie {
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 100%),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 100%),
     url('/img/capa.jpg');
-
-  height: 500px;
   background-size: cover;
+
+  padding-bottom: 20px;
 
   display: flex;
   flex-direction: column;
@@ -61,11 +61,13 @@ header a:hover {
 
 .main-movie .container {
   margin-left: 30px;
+  margin-top: 10%;
+  height: 80%;
   width: 40%;
 }
 
 .main-movie .title {
-  margin-top: 15%;
+  margin-top: 5px;
   font-size: 36px;
   font-weight: bold;
 }
@@ -123,4 +125,10 @@ header a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.section-list {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 30px;
 }
